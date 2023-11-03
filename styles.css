@@ -1,0 +1,12 @@
+h1 {
+    font-size: 46px;
+    font-family: Garamond, "Times New Roman", serif;
+    text-align: center;
+    background-color: rgb(215,166,166);
+}
+ul {
+    font-family: Garamond, "Times New Roman", serif;
+    font-size: 32px;
+    background-color: rgb(235, 167, 65);
+    color: white;
+}
