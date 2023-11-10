@@ -1,12 +1,49 @@
+body {
+    background-color: rgb(247, 191, 130, 0.4)
+}
 h1 {
     font-size: 46px;
     font-family: Garamond, "Times New Roman", serif;
     text-align: center;
-    background-color: rgb(215,166,166);
+    border: inset rgb(178, 50, 30);
+    width: 600px;
+    height: auto;
+    margin: 50px auto;
+    padding: 10px;
 }
 ul {
     font-family: Garamond, "Times New Roman", serif;
     font-size: 32px;
-    background-color: rgb(235, 167, 65);
     color: white;
+    display: flex; 
+    padding: 0;
+    width: 1590px;
+    margin: 0 auto;
+    
 }
+div {
+    width: 600px;
+    margin: 50px auto;
+}
+li {
+    display: block;
+}
+li a {
+    display: inline-block;
+    background-color: rgb(116, 177, 250, 0.5); 
+    padding: 40px;
+    margin: 20px;
+    border: 5px inset rgb(178, 50, 30);
+    width: 400px;
+    text-align: center;
+}
+li a:hover {
+    display: inline-block;
+    background-color: rgb(126, 160, 156, 0.4); 
+    padding: 40px;
+    margin: 20px;
+    border: 5px inset rgb(178, 50, 30);
+    width: 400px;
+    text-align: center;
+}
+
